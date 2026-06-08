@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Database (don't upload local DB — Railway uses PostgreSQL)
+anpr.db
+
+# Uploaded images (don't push to git)
+uploads/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+
+# Model weights (too large for git — Railway downloads them)
+*.pt
+
+# Environment
+.env
